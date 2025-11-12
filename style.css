@@ -2,5 +2,69 @@ body{
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background-color: #fffdeb;
+    background-color: #FAF9F6;
+    font-family: 'Segoe UI';
+}
+*{
+margin: 1px;
+    padding: 0;
+    border-radius: 5px;
+}
+header p{
+    width: 100%;
+    background-color:#333;
+    color:white ;
+    padding: 10px 0;
+    font-size: 20px;   
+    text-align: center; 
+}
+header nav{
+    width: 100% ;
+    background-color: #333;
+    padding: 10px 0 ;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+/*---------------------Pseudo classes and elements-------------*/
+nav a:focus{
+   color: deeppink;   
+}
+nav a:hover{
+    text-decoration: underline;  
+}
+
+input:checked{
+    width: 30px;
+}   
+/*---------------------Pseudo classes and elements-------------*/
+main{
+    display: flex;  
+}
+
+aside{
+    height: 600px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+} 
+aside ul li{
+    list-style: none;
+    margin-top: 50px;
+    padding: 10px;
+}
+aside ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+aside ul li:hover{
+    text-decoration: none;
+    background-color: deeppink;
+    transition: 0.5s;
+
 }
